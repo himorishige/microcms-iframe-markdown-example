@@ -2,6 +2,7 @@ import { useFieldExtension } from "microcms-field-extension-react";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import "@uiw/react-md-editor/markdown-editor.css";
+import "@uiw/react-markdown-preview/markdown.css";
 import rehypeSanitize, { defaultSchema } from "rehype-sanitize";
 import { onImagePasted } from "../utils/onImagePasted";
 import styles from "../styles/Home.module.css";
